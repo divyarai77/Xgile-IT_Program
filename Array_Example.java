@@ -27,5 +27,14 @@ public class Array_Example {
                 System.out.println(num[k][j]);
             }
         }
+
+        // Second example----------
+
+        String str[][]={{"Ram","Shyam","Hariom"},{"Sita","Gita","Divya"}};
+        for(int s=0;s<str.length;++s){
+            for(int b=0;b<str[s].length;++b){
+                System.out.println(str[s][b]);
+            }
+        }
     }
 }
