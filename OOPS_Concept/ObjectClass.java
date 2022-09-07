@@ -1,7 +1,9 @@
 package OOPS_Concept;
 
-// Object- An entity that has state and behavior is known as object.
-// Class- A class is a group of objects which have a common property.
+/* Object- An entity that has state and behavior is known as object.
+     Class- Collection of object is said to be a class
+
+ */
 
 public class ObjectClass {
     int x=100;

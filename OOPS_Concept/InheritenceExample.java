@@ -1,9 +1,11 @@
 package OOPS_Concept;
 
-// Inheritance is a mechanism in which one object acquire all the properties and behaviors of the parent class objects
+/* Inheritance is a mechanism in which one object acquire all the properties and behaviors of the parent class objects
 
-// Single Inheritance example---------
-/*class Animal {
+    Single Inheritance example---------
+    When a class inherits another class, it is known as a single inheritance
+ */
+class Animal {
     void eat() {
         System.out.println("Eating--");
     }
@@ -21,9 +23,11 @@ package OOPS_Concept;
     }
 }
 
- */
 
-// Multilevel Inheritance
+
+/* Multilevel Inheritance---
+      When there is a chain of inheritance, it is known as multilevel inheritance
+ */
 
 /*class Animal {
     public void eating() {
@@ -51,9 +55,11 @@ class AnimalTest{
 
  */
 
-// Hierarchical Inheritance
+/* Hierarchical Inheritance----
+       When two or more classes inherits a single class, it is known as hierarchical inheritance.
+ */
 
-class Animal{
+/*class Animal{
     void sound(){
         System.out.println("Animal Sound");
     }
@@ -76,3 +82,5 @@ class AnimalTest{
 
     }
 }
+
+ */
