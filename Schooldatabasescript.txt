@@ -1,0 +1,68 @@
+...Creating database School...
+
+Use School;
+
+...Create students table...
+
+create table students
+(studentid varchar(5), 
+studentname varchar(20), 
+studentdob date, 
+studentadd varchar(50));
+
+
+...create teachers table...
+
+create table teachers
+(teacherid varchar(5), 
+teachername varchar(20), 
+teacheremail varchar(20), 
+teacherage int(3));
+
+...create classes table...
+
+create table classes
+(classid varchar(5), 
+classnumber varchar(20));
+
+...create subjects table...
+
+create table subjects
+(subjectid varchar(5), 
+subjectname varchar(20));
+
+...Insert value in students table...
+
+insert into students values
+(1, 'John', 1995-03-04, 'Varanasi'),
+(2, 'Sam', 1994-07-05, 'Allahabad'),
+(3, 'Divya', 1994-07-05, 'Delhi')
+(4, 'Nora', 1992-04-02, 'South Africa');
+
+...Insert value in teachers table...
+
+insert into teachers values
+(1, 'Ramya', 'r@gmail.com', 26),
+(2, 'Juhi', 'j@gmail.com', 28),
+(3, 'Martin', 'm@gmail.com', 30)
+(4, 'Saumya', 's@gmail.com', 36);
+
+...Insert value in classes table...
+
+insert into classes values
+(1, 101),
+(2, 102),
+(3, 103);
+
+...Insert value in subjects table...
+
+insert into subjects values
+(1, 'Science'),
+(296, 'English'),
+(215, 'General Knowledge');
+
+
+
+
+
+
